@@ -1,0 +1,15 @@
+/* Estilos por defecto (para pantallas más grandes como computadoras) */
+.responsive-title {
+  font-size: 3rem; /* Tamaño grande para pantallas grandes */
+  text-align: center;
+  color: #333;
+  padding: 20px;
+}
+
+/* Media query para pantallas pequeñas como celulares */
+@media only screen and (max-width: 600px) {
+  .responsive-title {
+    font-size: 1.5rem; /* Tamaño más pequeño para pantallas pequeñas */
+    color: #333;    /* Cambiar el color en pantallas pequeñas */
+  }
+}
